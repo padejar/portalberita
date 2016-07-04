@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>jQuery ticker plugin examples</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style>
+html, body {
+height: 100%;
+}
+body {
+background: #f0f9ff; /* Old browsers */
+background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f0f9ff), color-stop(47%, #cbebff), color-stop(100%, #a1dbff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* W3C */
+}
+#wrap {
+width: 600px;
+margin: 0 auto;
+}
+h1 {
+color: #333;
+text-shadow: 1px 1px 0 #fff;
+}
+a, a:active, a:visited {
+color: #ccc;
+}
+.demo {
+color: #fff;
+width: 560px;
+border: 1px solid #111;
+list-style: none;
+height: 1.2em;
+overflow: hidden;
+border-radius: 3px;
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(125,126,125,1)), color-stop(100%, rgba(14,14,14,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* W3C */
+}
+</style>
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/animation/Simple-jQuery-Vertical-Web-Ticker-Plugin-Ticker.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div id="wrap" style="margin-top:150px;">
+<h1>jQuery ticker plugin examples</h1>
+<p>
+<h2>Effect fadeIn (default)</h2>
+<pre>$("#ticker1").ticker();</pre>
+</p>
+<ul id="ticker1" class="demo">
+<li>1 - First item - Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+<li>2 - Second item - Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+<li><a href="">3 - Third item - Lorem Ipsum is simply dummy text of the printing and typesetting</a></li>
+<li><a href="">4 - Fourth item - Lorem Ipsum is simply dummy text of the printing and typesetting</a></li>
+</ul>
+<p>
+<h2>Effect slideUp</h2>
+<pre>$("#ticker2").ticker({ effect: "slideUp"});</pre>
+</p>
+<ul id="ticker2" class="demo">
+<li>1 - First item - Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+<li>2 - Second item - Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+<li><a href="">3 - Third item - Lorem Ipsum is simply dummy text of the printing and typesetting</a></li>
+<li><a href="">4 - Fourth item - Lorem Ipsum is simply dummy text of the printing and typesetting</a></li>
+</ul>
+<p>
+<h2>Effect slideDown</h2>
+<pre>$("#ticker3").ticker({ effect: "slideDown"});</pre>
+</p>
+<ul id="ticker3" class="demo">
+<li>1 - First item - Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+<li>2 - Second item - Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+<li><a href="">3 - Third item - Lorem Ipsum is simply dummy text of the printing and typesetting</a></li>
+<li><a href="">4 - Fourth item - Lorem Ipsum is simply dummy text of the printing and typesetting</a></li>
+</ul>
+<p>
+<h1>Options</h1>
+<pre>
+$.fn.ticker.defaults =  {
+	controls: false, //show controls, to be implemented
+	interval: 3000, //interval to show next item
+	effect: "fadeIn", // available effects: fadeIn, slideUp, slideDown
+	duration: 400 //duration of the change to the next item
+};
+				</pre>
+</p>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery.ticker.js"></script> 
+<script>
+			$(document).ready(function(){
+				$("#ticker1").ticker();
+				$("#ticker2").ticker({ effect: "slideUp", interval: 4000});
+				$("#ticker3").ticker({ effect: "slideDown", interval: 5000});
+
+			});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,452 @@
+body {
+	background-color: #ddd;
+}
+
+.wrapper {
+	background-color: #ddd;
+}
+
+.main {
+	padding-top: 50px;
+}
+.navbar-top,
+.navbar-top .navbar-nav > li > a {
+	line-height: 20px;
+}
+
+#myCarousel .carousel-caption a {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#myCarousel .carousel-caption {
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:10px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+}
+
+#myCarousel .list-group {
+	position:absolute;
+	top:0;
+	right:0;
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#myCarousel .list-group .active,
+#myCarousel .list-group .active:hover {
+	background-color:#2780E3;
+	color: #fff;
+}
+
+#myCarousel .list-group-item:hover {
+	background-color: #E6E6E6;
+}
+
+.carousel > .carousel-inner > .item > img {
+	width: 100%;
+	height: 385px;
+}
+
+.carousel > .col-md-4 {
+	padding-right: 0;
+}
+
+@media (min-width: 992px) {
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;}
+}
+
+.navbar-top {
+	margin-bottom: 0;
+}
+
+.navbar-top > .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-form {
+	line-height: 20px;
+}
+
+.headline {
+	background-color: #1967BE;
+	margin: 0;
+	padding: 0 10px;
+	line-height: 50px;
+}
+
+.header {
+	height: 130px;
+}
+
+.header-wrapper {
+	background-color: #fff;
+}
+
+.header-wrapper > .container,
+.navbar-bottom > .container-fluid,
+.konten-wrapper,
+.konten-wrapper > .col-md-8
+{
+	padding: 0;
+}
+
+.site-title {
+	font-size: 4em;
+	margin: 10px 0;
+	font-weight: bold;
+	font-family: Times;
+}
+
+.site-description {
+	margin: 10px 0;
+	font-family: Times;
+}
+
+.slider {
+	min-height: 400px;
+	margin-bottom: 5px;
+}
+
+.konten-wrapper {
+	min-height: 325px;
+}
+
+.post {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
+}
+
+.post-title, .post-meta, .post-content {
+	padding-right: 25px;
+}
+
+.post-title > .col-sm-12 > a >  h2,
+.post-title > .col-sm-12 > h2 {
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.post-title > .col-sm-12 > a {
+	text-decoration: none;
+	color: #444;
+}
+
+.post-title > .col-sm-12 > a:hover {
+	color: #111;
+}
+
+.post-title > .col-sm-12 > span {
+	font-size: 2em;
+	font-weight: bold;
+	color: #111;
+}
+
+.post-meta > .col-sm-3 {
+	padding: 10px 14px;
+	font-size: 0.8em;
+	color: #2780E3;
+}
+
+.post-content {
+	background-color: #FFF;
+	text-align: justify;
+	margin-bottom: 15px;
+}
+
+.post-detail > .post-content .image {
+	text-align: center;
+}
+
+.post-detail > .post-content .image img {
+	margin-top: 15px;
+	margin-bottom: 25px;
+	width: 75%;
+	height: 350px;
+}
+
+.footer {
+	background-color: #2780E3;
+}
+
+.footer-upper {
+	min-height: 250px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+.post-content > .excerpt > img {
+	float: left;
+	width: 25%;
+	height: 125px;
+	margin-right: 10px;
+}
+
+.footer-upper > .container {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.footer-upper > .container > .col-md-4 > .page-header {
+	border-bottom: 2px solid #fff;
+}
+
+.footer-bottom {
+	background-color:#1967BE;
+}
+
+.footer-bottom > .col-md-12 {
+	text-align: center;
+}
+
+.centered {
+	margin: 0 auto;
+	background-color: #ddd;
+}
+
+.clear {
+	clear: both;
+	margin: 20px 0;
+}
+
+.copy {
+	color: #FFF;
+}
+
+.headlines-container {
+	display: inline;
+}
+
+.headlines {
+	height: 40px;
+}
+.headlines > li {
+	list-style: none;
+	width: 550px;
+}
+
+.headlines > li > a {
+	line-height: 50px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.headlines > li > a:hover {
+	text-decoration: underline;
+}
+
+.dropdown-search {
+	background-color: #222222;
+}
+
+.footer-upper a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.footer-upper a:hover {
+	text-decoration: underline;
+}
+
+.news-list img {
+	height: 75px;
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+}
+
+.news-list {
+	list-style: none;
+	padding: 0;
+}
+
+.news-list > li {
+	min-height: 85px;
+	margin-bottom: 10px;
+	padding-top: 4px;
+	padding-left: 10px;
+	border-bottom: 2px dotted #FFF;
+}
+
+.news-list > li:hover {
+	background-color: #1967BE;
+}
+
+.news-list > li > a {
+	font-size: 1.1em;
+}
+
+.news-list > li > p {
+	font-size: 0.8em;
+	color: #77AFED;
+}
+
+.nav-link > li > a:hover,
+.nav-link > li > a:focus,
+.nav-link > li.active {
+	background-color: #2780E3;
+}
+
+.nav-link > li > a:hover {
+	text-decoration: underline;
+}
+
+.about > .post-title > .col-sm-12 {
+	text-align: center;
+}
+
+.kategori > h3 {
+	margin-top: 10px;
+}
+
+.sidebar {
+	border-left: 1px solid #E6E6E6;
+}
+
+.sidebar-item > .page-header {
+	border-bottom: 2px solid black;
+	padding-top: 5px;
+}
+
+.sidebar-item > .news-list > li {
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.sidebar-item > .news-list > li:hover {
+	background-color: #FFF;
+}
+
+.sidebar-item > .news-list > li > p,
+.sidebar-item > .news-list > li > p > a {
+	color: #bbb;
+}
+
+.sidebar-item > .news-list > li > a {
+	color: #111;
+}
+
+.nav-kat > li > a {
+	color: #000;
+}
+
+.nav-kat > li > a > .badge {
+	background-color: #000;
+	color: #fff;
+}
+
+.nav-kat > li.active > a > .badge {
+	background-color: #fff;
+	color: #000;
+}
+
+.nav-kat > li.active > a,
+.nav-kat > li.active > a:hover {
+	background-color: #111;
+}
+.author {
+	min-height: 175px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 20px;
+}
+
+.author-name{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #222;
+}
+
+.author-img {
+	float: left;
+	margin-right: 20px;
+}
+
+.not-found {
+	text-align: center;
+}
+
+.not-found > h1 {
+	font-size: 8em;
+}
+
+.panel-login {
+	margin-top:75px;
+}
+
+.navbar-bottom .navbar-nav > li > a:hover {
+	background: #222;
+}
+
+.navbar-bottom .navbar-nav > li.active > a,
+.navbar-bottom .navbar-nav > li.active > a:hover {
+	background: #2780E3;
+}
+.navbar-bottom .navbar-right > li > a:hover {
+	background: #000;
+}
+
+/* Sweep To Top */
+.hvr-sweep-to-top:before {
+  background: #2780E3;
+}
+
+.buku-tamu-item {
+	margin-bottom: 25px;
+}
+
+.buku-tamu-item h4 {
+	font-weight: bold;
+}
+
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+.show {
+    visibility: visible !important; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
