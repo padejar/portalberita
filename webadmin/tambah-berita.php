@@ -63,7 +63,7 @@ if (isset($_POST['btn_publish'])) {
     											 '0')";
     	$insert_qry = $mysqli->query($insert_sql) or die ($mysqli->error);
 
-    	echo "<script>alert('Data Berhasil Ditambah'); window.location = 'berita.php?'</script>";
+    	echo "<script>alert('Data Berhasil Ditambah'); window.location = 'berita.php'</script>";
     }
 
     if (!count($message)==0) {

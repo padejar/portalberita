@@ -102,9 +102,7 @@ if (isset($_POST['btn_edit'])) {
 										<input type="text" class="form-control" name="judul" placeholder="Judul Berita" value="<?php echo $var_judul; ?>">
 									</div>
 									<div class="form-group">
-										<textarea class="form-control input-sm" name="teks_berita" id="editor" rows="15">
-											<?php echo $var_teksberita; ?>
-										</textarea>
+										<textarea class="form-control input-sm" name="teks_berita" id="editor" rows="15"><?php echo $var_teksberita; ?></textarea>
 									</div>
 								</div>
 								<div class="col-sm-4">
@@ -115,13 +113,13 @@ if (isset($_POST['btn_edit'])) {
                                     <div class="form-group">
 										<label>Kategori</label>
 										<select class="form-control input-sm" name="kategori">
-										<?php while ($kat = $qry_kat->fetch_assoc()) { ?>
-											<?php if ($kat['id_kategori']==$var_kategori) { ?>
+										<?php while ($kat = $qry_kat->fetch_assoc()):?>
+											<?php if ($kat['id_kategori']==$var_kategori): ?>
 											<option value="<?php echo $kat['id_kategori']; ?>" selected><?php echo $kat['kategori']; ?></option>
-											<?php }else{ ?>
+											<?php else: ?>
 											<option value="<?php echo $kat['id_kategori']; ?>"><?php echo $kat['kategori']; ?></option>
-											<?php } ?>
-										<?php } ?>
+											<?php endif; ?>
+										<?php endwhile; ?>
 										</select>
 									</div>
 									<div class="form-group">
@@ -161,6 +159,5 @@ if (isset($_POST['btn_edit'])) {
 </div>
 <script>
     CKEDITOR.replace( 'editor' );
-</script>
 </script>
 <?php include 'footer.php'; ?>
